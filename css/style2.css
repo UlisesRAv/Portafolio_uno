@@ -1,0 +1,242 @@
+:root{
+    --blanco:#ffffff;
+    --obscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+
+body{
+    font-size: 16px; /*1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url(../canserbero.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    color: white;
+}
+
+h1, h2, h3, p {
+    background-color: #000;
+}
+
+.TituloPrincipal {
+    text-align: center;
+    font-size: 8rem;
+    font-style: normal;
+    letter-spacing: 0.7rem;
+}
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+.imagenp {
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+    height: 10rem;
+}
+
+
+.contenedor {
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}    
+
+.contenido1 {
+    color: #363732;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.contenedor-listas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.lista-izquierda, .lista-derecha {
+    width: 45%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-izquierda li, .lista-derecha li {
+    background-color: #212121;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.titulo2 {
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.contenido2 {
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    font-weight: 600;
+    color:#363732;
+}
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+    width: 90rem;
+    height: 45rem;
+}
+  
+
+.tabla {
+    margin: 2rem auto 0; 
+    border-collapse: collapse; 
+    width: 80%; 
+    background-color: #212121
+}
+
+.tabla th, .tabla td {
+    padding: 8px; 
+    text-align: left; 
+    color: #757575;
+}
+
+
+.frases, .formulario {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+
+.mapa{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem ;
+}
+
+.mapa iframe, .mapa p{
+  flex: 001;
+  padding: 3rem;
+}
+
+.titulo3 {
+  text-align: right;
+    font-size: 3rem;
+    margin-right: 12rem;
+    margin-top: 10rem;
+}
+
+.contenido3 {
+  text-align: right;
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  font-weight: 600;
+  color:#363732;
+}
+
+.conferencia{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.conferencia img, .conferencia p{
+  flex: 001;
+  padding: 3rem;
+}
+
+.conferencia img{
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario form {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  text-align: center;
+  color: #333;
+}
+
+.formulario label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.formulario textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none; /* Evita que se pueda redimensionar */
+  font-size: 14px;
+  color: #333;
+}
+
+.formulario input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #333; /* Efecto al pasar el mouse */
+}
+
+/* Estilo para el fieldset */
+.formulario fieldset {
+  border: none;
+  padding: 0;
+}
